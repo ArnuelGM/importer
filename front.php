@@ -11,6 +11,7 @@
 		<select name="profile_id">
 			<option value="">Seleccione el perfil</option>
 			<option value="1">Pacientes</option>
+			<option value="2">Diagnosticos</option>
 		</select>
 		<br>
 		<br>

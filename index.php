@@ -5,6 +5,8 @@
 	use excel\ImportController;
 	use PhpOffice\PhpSpreadsheet\IOFactory;
 
+	// exit();
+	
 	// Catching file upload
 	if(empty($_FILES['document']['name'])){
 		echo "No se encontro el documento.";

@@ -5,10 +5,10 @@ $capsule = new Capsule;
 
 $capsule->addConnection([
     'driver'    => 'sqlsrv',
-    'host'      => '192.168.1.20',
-    'database'  => 'SW2DOMICILIARIA',
+    'host'      => '127.0.0.1',
+    'database'  => 'SW3',
     'username'  => 'sa',
-    'password'  => 'Innova2017',
+    'password'  => '1234',
     'charset'   => 'utf8',
     'prefix'    => '',
 ]);

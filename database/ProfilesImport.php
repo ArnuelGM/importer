@@ -8,8 +8,8 @@ class ImportProfile extends Model {
 }
 
 // ImportProfile::create([
-// 	'name' => 'Pacientes',
-// 	'table' => 'sis_paci',
+// 	'name' => 'Diagnosticos',
+// 	'table' => 'sis_diags',
 // 	'skip_first_row' => 0,
-// 	'fields' => '["tipo_id", "num_id", "primer_ape", "segundo_ape", "primer_nom", "segundo_nom", "sexo", "telefono", "email"]'
+// 	'fields' => '["codigo","descripcion","sexo","edadi","edadf"]'
 // ]);
